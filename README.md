@@ -44,16 +44,29 @@ Classificação de tipos de cerveja com base em características químicas e sen
 ```python
 model.predict([[-6,1,1,0]])
 ```
+<img width="1320" height="1312" alt="image" src="https://github.com/user-attachments/assets/c2cdcd11-c985-4957-a380-f4693cbd4b84" />
+
+
 
 ### 2. Frutas
 
 Classificação de frutas com base em características físicas e nutricionais.
 
+**Exemplo de Previsão:**
+```python
+model.predict([[0,1,0,0]])
+```
+
+<img width="1320" height="1312" alt="image" src="https://github.com/user-attachments/assets/5cee5bc3-56eb-4d8a-b09a-dc9523c7b24a" />
+
+
+
+
 ### 3. Star Wars - Análise de Clones
 
 Este projeto utiliza Machine Learning para identificar quais generais Jedi estão associados ao maior número de clones mortos em batalha.  
 Utiliza um modelo de árvore de decisão (`DecisionTreeClassifier`) para analisar características dos clones, como massa, estatura, tempo de existência e o general responsável.  
-O objetivo é ajudar a identificar padrões e possíveis problemas nas tropas sob comando de cada general.
+O objetivo é ajudar a identificar padrões que causam maior perca de clones e possíveis problemas que geram essas percas nas tropas sob comando de cada general.
 
 <img width="1320" height="1312" alt="image" src="https://github.com/user-attachments/assets/3ee40c4c-307c-4109-af08-0e9bd4f7dd08" />
 
