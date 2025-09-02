@@ -27,3 +27,5 @@ tree.plot_tree(model,
                filled=True)
 # %%
 model.predict([[-6,1,1,0]])
+
+# %%

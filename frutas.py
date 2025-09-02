@@ -26,5 +26,4 @@ tree.plot_tree(model,
                class_names=model.classes_,
                filled=True)
 # %%
-# %%
 model.predict([[0,1,0,0]])
