@@ -55,6 +55,9 @@ Este projeto utiliza Machine Learning para identificar quais generais Jedi estã
 Utiliza um modelo de árvore de decisão (`DecisionTreeClassifier`) para analisar características dos clones, como massa, estatura, tempo de existência e o general responsável.  
 O objetivo é ajudar a identificar padrões e possíveis problemas nas tropas sob comando de cada general.
 
+<img width="1320" height="1312" alt="image" src="https://github.com/user-attachments/assets/3ee40c4c-307c-4109-af08-0e9bd4f7dd08" />
+
+
 **Como executar:**
 ```bash
 python Clones.py
