@@ -1,6 +1,6 @@
-# Classificação de Cervejas com Árvore de Decisão
+# Classificação de Cervejas e Frutas com Árvore de Decisão
 
-Este projeto utiliza Python, pandas e scikit-learn para classificar baseado em Machine Learning tipos de cerveja com base em características como temperatura, tipo de copo, presença de espuma e cor. O modelo de árvore de decisão é treinado usando dados de um arquivo Excel.
+Este projeto utiliza Python, pandas e scikit-learn para classificar tipos de cerveja e frutas com base em características específicas, utilizando modelos de árvore de decisão treinados com dados de arquivos Excel.
 
 ## Requisitos
 
@@ -20,19 +20,23 @@ pip install pandas scikit-learn matplotlib openpyxl
 
 ## Como usar
 
-1. Coloque o arquivo `dados_cerveja.xlsx` na mesma pasta do script.
-2. Execute o script `bebidas.py` em um ambiente Python.
+1. Coloque os arquivos `dados_cerveja.xlsx` e `dados_frutas.xlsx` na mesma pasta dos scripts.
+2. Execute os scripts `bebidas.py` e `frutas.py` em um ambiente Python.
 
 ## Funcionalidades
 
-- Leitura dos dados de cerveja de um arquivo Excel.
-- Conversão de variáveis categóricas em numéricas.
-- Treinamento de um modelo de árvore de decisão.
-- Visualização da árvore de decisão.
+- Leitura dos dados de cerveja e frutas de arquivos Excel.
+- Conversão de variáveis categóricas em numéricas (no caso das cervejas).
+- Treinamento de modelos de árvore de decisão.
+- Visualização das árvores de decisão.
 - Previsão de classe para novos exemplos.
 
 ## Exemplo de Previsão
 
+**Cervejas:**
 ```python
 model.predict([[-6,1,1,0]])
 ```
+
+**Frutas:**
+```python
